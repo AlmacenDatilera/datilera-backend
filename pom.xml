@@ -12,9 +12,9 @@
     </parent>
 
     <groupId>com.example</groupId>
-    <artifactId>Datilera</artifactId>
+    <artifactId>datilera</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Datilera</name>
+    <name>datilera</name>
     <description>API para almacén saludable 'Datilera'</description>
 
     <properties>
@@ -139,7 +139,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.example.Datilera.DatileraApplication</mainClass>
+                    <mainClass>com.example.datilera.DatileraApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

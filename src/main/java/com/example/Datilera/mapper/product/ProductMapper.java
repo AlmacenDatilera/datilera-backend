@@ -12,7 +12,7 @@ import com.example.datilera.dto.product.ProductDto;
 public interface ProductMapper {
 
     @Mapping(target = "categoryName", expression = "java(product.getCategory() != null ? product.getCategory().getName() : null)")
-    @Mapping(target = "imageUrls", expression = "java(product.getImages() != null ? product.getImages().stream().map(com.example.Datilera.domain.ProductImage::getImageUrl).toList() : java.util.Collections.emptyList())")
+    @Mapping(target = "imageUrls", expression = "java(product.getImages() != null ? product.getImages().stream().map(com.example.datilera.domain.ProductImage::getImageUrl).toList() : java.util.Collections.emptyList())")
     ProductDto productToProductDto(Product product);
 
     @Mapping(target = "id_product", ignore = true)
