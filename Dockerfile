@@ -1,14 +1,12 @@
-# Usa Java 21 como en el ejemplo anterior
+# Etapa de build
+FROM maven:3.9.6-eclipse-temurin-21 AS build
+WORKDIR /app
+COPY . .
+RUN mvn clean package -DskipTests
+
+# Etapa de runtime
 FROM openjdk:21-jdk-slim
-
-# Define el nombre del JAR correcto (ajusta el nombre y versión según tu proyecto)
-ARG JAR_FILE=target/Datilera-0.0.1-SNAPSHOT.jar
-
-# Copia el JAR en el contenedor con un nombre más simple
-COPY ${JAR_FILE} app.jar
-
-# Expone el puerto en el que corre Spring Boot
+WORKDIR /app
+COPY --from=build /app/target/Datilera-0.0.1-SNAPSHOT.jar app.jar
 EXPOSE 8080
-
-# Comando de entrada para ejecutar la aplicación
 ENTRYPOINT ["java", "-jar", "app.jar"]
