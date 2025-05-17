@@ -1,5 +1,3 @@
-target/*
-!target/*.jar
 src/
 .git
 .gitignore
