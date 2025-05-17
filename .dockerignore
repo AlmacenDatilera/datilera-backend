@@ -1,0 +1,10 @@
+target/*
+!target/*.jar
+src/
+.git
+.gitignore
+*.md
+mvnw
+mvnw.cmd
+.mvn
+*.log
