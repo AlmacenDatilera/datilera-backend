@@ -1,4 +1,4 @@
-package com.example.Datilera.dto.product;
+package com.example.datilera.dto.product;
 
 
 import java.util.List;

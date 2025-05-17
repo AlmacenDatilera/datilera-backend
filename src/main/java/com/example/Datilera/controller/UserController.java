@@ -1,4 +1,4 @@
-package com.example.Datilera.controller;
+package com.example.datilera.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.Datilera.dto.user.UserDto;
-import com.example.Datilera.mapper.user.UserMapper;
-import com.example.Datilera.service.user.UserService;
+import com.example.datilera.dto.user.UserDto;
+import com.example.datilera.mapper.user.UserMapper;
+import com.example.datilera.service.user.UserService;
 
 import lombok.AllArgsConstructor;
 

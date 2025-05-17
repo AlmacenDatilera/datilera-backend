@@ -1,4 +1,4 @@
-package com.example.Datilera.dto.errors;
+package com.example.datilera.dto.errors;
 
 public record ErrorDtoResponse(
     String error,

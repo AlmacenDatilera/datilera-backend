@@ -1,10 +1,10 @@
-package com.example.Datilera.repository;
+package com.example.datilera.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.example.Datilera.domain.User;
+import com.example.datilera.domain.User;
 
 public interface UserRepository extends JpaRepository<User, Long>{
     boolean existsByEmail(String email);

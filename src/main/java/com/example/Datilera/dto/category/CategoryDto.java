@@ -1,4 +1,4 @@
-package com.example.Datilera.dto.category;
+package com.example.datilera.dto.category;
 
 public record CategoryDto(
     Long id_category,

@@ -1,4 +1,4 @@
-package com.example.Datilera;
+package com.example.datilera;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.example.Datilera.dto.category;
+package com.example.datilera.dto.category;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

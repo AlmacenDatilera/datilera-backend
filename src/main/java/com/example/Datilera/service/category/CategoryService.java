@@ -1,9 +1,9 @@
-package com.example.Datilera.service.category;
+package com.example.datilera.service.category;
 
 import java.util.List;
 
-import com.example.Datilera.dto.category.CategoryCreateDto;
-import com.example.Datilera.dto.category.CategoryDto;
+import com.example.datilera.dto.category.CategoryCreateDto;
+import com.example.datilera.dto.category.CategoryDto;
 
 public interface CategoryService {
     CategoryDto createCategory(CategoryCreateDto categoryCreateDto);

@@ -1,11 +1,11 @@
-package com.example.Datilera.mapper.product;
+package com.example.datilera.mapper.product;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
-import com.example.Datilera.domain.Product;
-import com.example.Datilera.dto.product.ProductCreateDto;
-import com.example.Datilera.dto.product.ProductDto;
+import com.example.datilera.domain.Product;
+import com.example.datilera.dto.product.ProductCreateDto;
+import com.example.datilera.dto.product.ProductDto;
 
 
 @Mapper(componentModel = "spring")

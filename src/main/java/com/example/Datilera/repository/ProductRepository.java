@@ -1,8 +1,8 @@
-package com.example.Datilera.repository;
+package com.example.datilera.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.example.Datilera.domain.Product;
+import com.example.datilera.domain.Product;
 
 public interface ProductRepository extends JpaRepository<Product, Long> {
 

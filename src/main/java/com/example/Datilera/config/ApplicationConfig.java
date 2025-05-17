@@ -1,4 +1,4 @@
-package com.example.Datilera.config;
+package com.example.datilera.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -11,7 +11,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-import com.example.Datilera.repository.UserRepository;
+import com.example.datilera.repository.UserRepository;
 
 import lombok.AllArgsConstructor;
 

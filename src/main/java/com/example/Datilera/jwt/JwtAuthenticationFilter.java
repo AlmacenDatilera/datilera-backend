@@ -1,4 +1,4 @@
-package com.example.Datilera.jwt;
+package com.example.datilera.jwt;
 
 import java.io.IOException;
 import java.util.List;
@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.example.Datilera.service.jwt.JwtService;
+import com.example.datilera.service.jwt.JwtService;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

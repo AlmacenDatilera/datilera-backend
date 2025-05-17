@@ -1,4 +1,4 @@
-package com.example.Datilera.controller;
+package com.example.datilera.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.Datilera.dto.product.ProductCreateMultipartDto;
-import com.example.Datilera.dto.product.ProductDto;
-import com.example.Datilera.service.product.ProductService;
+import com.example.datilera.dto.product.ProductCreateMultipartDto;
+import com.example.datilera.dto.product.ProductDto;
+import com.example.datilera.service.product.ProductService;
 
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;

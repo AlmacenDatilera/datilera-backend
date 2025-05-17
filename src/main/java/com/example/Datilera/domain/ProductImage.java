@@ -1,4 +1,4 @@
-package com.example.Datilera.domain;
+package com.example.datilera.domain;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

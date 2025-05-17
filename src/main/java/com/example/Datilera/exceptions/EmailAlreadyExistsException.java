@@ -1,4 +1,4 @@
-package com.example.Datilera.exceptions;
+package com.example.datilera.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

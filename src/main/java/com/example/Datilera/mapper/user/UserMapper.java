@@ -1,11 +1,11 @@
-package com.example.Datilera.mapper.user;
+package com.example.datilera.mapper.user;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
-import com.example.Datilera.domain.User;
-import com.example.Datilera.dto.user.UserDto;
-import com.example.Datilera.dto.user.UserRegisterDto;
+import com.example.datilera.domain.User;
+import com.example.datilera.dto.user.UserDto;
+import com.example.datilera.dto.user.UserRegisterDto;
 
 @Mapper(componentModel = "spring")
 public interface UserMapper {

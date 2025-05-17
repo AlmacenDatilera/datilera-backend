@@ -1,4 +1,4 @@
-package com.example.Datilera.dto.user;
+package com.example.datilera.dto.user;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

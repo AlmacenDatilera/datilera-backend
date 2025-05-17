@@ -1,4 +1,4 @@
-package com.example.Datilera.exceptions;
+package com.example.datilera.exceptions;
 
 import java.util.HashMap;
 import java.util.List;
@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 
-import com.example.Datilera.dto.errors.ErrorDtoNotFound;
-import com.example.Datilera.dto.errors.ErrorDtoResponse;
-import com.example.Datilera.dto.errors.ErrorGenericDto;
+import com.example.datilera.dto.errors.ErrorDtoNotFound;
+import com.example.datilera.dto.errors.ErrorDtoResponse;
+import com.example.datilera.dto.errors.ErrorGenericDto;
 
 import io.jsonwebtoken.JwtException;
 

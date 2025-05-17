@@ -1,4 +1,4 @@
-package com.example.Datilera.dto.errors;
+package com.example.datilera.dto.errors;
 
 import java.util.List;
 import java.util.Map;

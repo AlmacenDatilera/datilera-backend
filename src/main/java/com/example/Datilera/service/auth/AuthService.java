@@ -1,8 +1,8 @@
-package com.example.Datilera.service.auth;
+package com.example.datilera.service.auth;
 
-import com.example.Datilera.dto.auth.AuthResponseDto;
-import com.example.Datilera.dto.user.UserLoginDto;
-import com.example.Datilera.dto.user.UserRegisterDto;
+import com.example.datilera.dto.auth.AuthResponseDto;
+import com.example.datilera.dto.user.UserLoginDto;
+import com.example.datilera.dto.user.UserRegisterDto;
 
 public interface AuthService {
     AuthResponseDto register(UserRegisterDto userRegisterDto);

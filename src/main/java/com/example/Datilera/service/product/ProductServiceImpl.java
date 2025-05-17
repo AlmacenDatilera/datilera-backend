@@ -1,4 +1,4 @@
-package com.example.Datilera.service.product;
+package com.example.datilera.service.product;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,14 +9,14 @@ import org.springframework.web.multipart.MultipartFile;
 
 import com.cloudinary.Cloudinary;
 import com.cloudinary.utils.ObjectUtils;
-import com.example.Datilera.domain.Product;
-import com.example.Datilera.domain.ProductImage;
-import com.example.Datilera.dto.product.ProductCreateMultipartDto;
-import com.example.Datilera.dto.product.ProductDto;
-import com.example.Datilera.exceptions.ResourceNotFoundException;
-import com.example.Datilera.mapper.product.ProductMapper;
-import com.example.Datilera.repository.CategoryRepository;
-import com.example.Datilera.repository.ProductRepository;
+import com.example.datilera.domain.Product;
+import com.example.datilera.domain.ProductImage;
+import com.example.datilera.dto.product.ProductCreateMultipartDto;
+import com.example.datilera.dto.product.ProductDto;
+import com.example.datilera.exceptions.ResourceNotFoundException;
+import com.example.datilera.mapper.product.ProductMapper;
+import com.example.datilera.repository.CategoryRepository;
+import com.example.datilera.repository.ProductRepository;
 
 import lombok.AllArgsConstructor;
 

@@ -1,4 +1,4 @@
-package com.example.Datilera.config;
+package com.example.datilera.config;
 
 import java.util.Arrays;
 
@@ -15,7 +15,7 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
-import com.example.Datilera.jwt.JwtAuthenticationFilter;
+import com.example.datilera.jwt.JwtAuthenticationFilter;
 
 import lombok.AllArgsConstructor;
 

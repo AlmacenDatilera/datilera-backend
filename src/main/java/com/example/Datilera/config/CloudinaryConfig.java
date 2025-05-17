@@ -1,4 +1,4 @@
-package com.example.Datilera.config;
+package com.example.datilera.config;
 
 import com.cloudinary.Cloudinary;
 import com.cloudinary.utils.ObjectUtils;

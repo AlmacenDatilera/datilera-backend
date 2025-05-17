@@ -1,4 +1,4 @@
-package com.example.Datilera.controller;
+package com.example.datilera.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.Datilera.dto.user.UserLoginDto;
-import com.example.Datilera.dto.user.UserRegisterDto;
-import com.example.Datilera.service.auth.AuthService;
+import com.example.datilera.dto.user.UserLoginDto;
+import com.example.datilera.dto.user.UserRegisterDto;
+import com.example.datilera.service.auth.AuthService;
 
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;

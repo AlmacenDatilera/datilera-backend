@@ -1,4 +1,4 @@
-package com.example.Datilera.dto.auth;
+package com.example.datilera.dto.auth;
 
 public record AuthResponseDto(String token) {
 

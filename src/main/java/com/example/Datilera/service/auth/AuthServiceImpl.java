@@ -1,4 +1,4 @@
-package com.example.Datilera.service.auth;
+package com.example.datilera.service.auth;
 
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
@@ -7,16 +7,16 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
-import com.example.Datilera.domain.User;
-import com.example.Datilera.dto.auth.AuthResponseDto;
-import com.example.Datilera.dto.user.UserLoginDto;
-import com.example.Datilera.dto.user.UserRegisterDto;
-import com.example.Datilera.exceptions.EmailAlreadyExistsException;
-import com.example.Datilera.exceptions.InvalidCredentialsException;
-import com.example.Datilera.exceptions.ResourceNotFoundException;
-import com.example.Datilera.repository.UserRepository;
-import com.example.Datilera.service.jwt.JwtService;
-import com.example.Datilera.service.user.UserService;
+import com.example.datilera.domain.User;
+import com.example.datilera.dto.auth.AuthResponseDto;
+import com.example.datilera.dto.user.UserLoginDto;
+import com.example.datilera.dto.user.UserRegisterDto;
+import com.example.datilera.exceptions.EmailAlreadyExistsException;
+import com.example.datilera.exceptions.InvalidCredentialsException;
+import com.example.datilera.exceptions.ResourceNotFoundException;
+import com.example.datilera.repository.UserRepository;
+import com.example.datilera.service.jwt.JwtService;
+import com.example.datilera.service.user.UserService;
 
 import lombok.AllArgsConstructor;
 

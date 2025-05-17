@@ -1,4 +1,4 @@
-package com.example.Datilera.domain;
+package com.example.datilera.domain;
 
 import java.util.List;
 

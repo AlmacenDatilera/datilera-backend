@@ -1,6 +1,6 @@
-package com.example.Datilera.dto.user;
+package com.example.datilera.dto.user;
 
-import com.example.Datilera.domain.enums.RoleEnumUser;
+import com.example.datilera.domain.enums.RoleEnumUser;
 
 public record UserDto(
     Long id_user,

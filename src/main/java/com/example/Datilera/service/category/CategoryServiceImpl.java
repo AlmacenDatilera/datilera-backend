@@ -1,15 +1,15 @@
-package com.example.Datilera.service.category;
+package com.example.datilera.service.category;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.example.Datilera.domain.Category;
-import com.example.Datilera.dto.category.CategoryCreateDto;
-import com.example.Datilera.dto.category.CategoryDto;
-import com.example.Datilera.exceptions.ResourceNotFoundException;
-import com.example.Datilera.mapper.category.CategoryMapper;
-import com.example.Datilera.repository.CategoryRepository;
+import com.example.datilera.domain.Category;
+import com.example.datilera.dto.category.CategoryCreateDto;
+import com.example.datilera.dto.category.CategoryDto;
+import com.example.datilera.exceptions.ResourceNotFoundException;
+import com.example.datilera.mapper.category.CategoryMapper;
+import com.example.datilera.repository.CategoryRepository;
 
 import lombok.AllArgsConstructor;
 

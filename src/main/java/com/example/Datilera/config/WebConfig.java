@@ -1,4 +1,4 @@
-package com.example.Datilera.config;
+package com.example.datilera.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

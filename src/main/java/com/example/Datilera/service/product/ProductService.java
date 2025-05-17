@@ -1,9 +1,9 @@
-package com.example.Datilera.service.product;
+package com.example.datilera.service.product;
 
 import java.util.List;
 
-import com.example.Datilera.dto.product.ProductCreateMultipartDto;
-import com.example.Datilera.dto.product.ProductDto;
+import com.example.datilera.dto.product.ProductCreateMultipartDto;
+import com.example.datilera.dto.product.ProductDto;
 
 public interface ProductService {
     ProductDto createProduct(ProductCreateMultipartDto productCreateDto);

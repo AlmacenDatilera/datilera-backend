@@ -1,11 +1,11 @@
-package com.example.Datilera.mapper.category;
+package com.example.datilera.mapper.category;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
-import com.example.Datilera.domain.Category;
-import com.example.Datilera.dto.category.CategoryCreateDto;
-import com.example.Datilera.dto.category.CategoryDto;
+import com.example.datilera.domain.Category;
+import com.example.datilera.dto.category.CategoryCreateDto;
+import com.example.datilera.dto.category.CategoryDto;
 
 @Mapper(componentModel = "spring")
 public interface CategoryMapper {

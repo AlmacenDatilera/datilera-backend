@@ -1,4 +1,4 @@
-package com.example.Datilera.service.user;
+package com.example.datilera.service.user;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -6,11 +6,11 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.example.Datilera.domain.User;
-import com.example.Datilera.domain.enums.RoleEnumUser;
-import com.example.Datilera.dto.user.UserRegisterDto;
-import com.example.Datilera.mapper.user.UserMapper;
-import com.example.Datilera.repository.UserRepository;
+import com.example.datilera.domain.User;
+import com.example.datilera.domain.enums.RoleEnumUser;
+import com.example.datilera.dto.user.UserRegisterDto;
+import com.example.datilera.mapper.user.UserMapper;
+import com.example.datilera.repository.UserRepository;
 
 import lombok.AllArgsConstructor;
 
