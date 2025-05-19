@@ -8,7 +8,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.3.5</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
 
     <groupId>com.example</groupId>
@@ -134,15 +134,21 @@
                 </configuration>
             </plugin>
 
-            <!-- Spring Boot Plugin con mainClass especificado -->
+            <!-- Spring Boot Plugin con ejecución de repackaging -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <mainClass>com.example.datilera.DatileraApplication</mainClass>
                 </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
-
 </project>

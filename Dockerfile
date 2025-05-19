@@ -9,4 +9,4 @@ FROM openjdk:21-jdk-slim
 WORKDIR /app
 COPY --from=build /app/target/datilera-0.0.1-SNAPSHOT.jar app.jar
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "app.jar"]
+ENTRYPOINT ["java", "-Xms64m", "-Xmx256m", "-XX:+UseContainerSupport", "-XX:MaxRAMPercentage=50.0", "-jar", "app.jar"]
